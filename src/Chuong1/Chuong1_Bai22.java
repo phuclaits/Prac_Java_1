@@ -89,6 +89,7 @@ public class Chuong1_Bai22 {
 				  // regex
 				  //String output = rs1.replaceAll("\\[\\s*\\]", rs1);
 				  OptionalInt rs1 = find_ele_max(arr);
+				  System.out.println(rs1);
 				  String output1 = Integer.toString(rs1.getAsInt());
 				  System.out.println("Giá trị lớn nhất trong mảng là: "+output1);
 				  break;
